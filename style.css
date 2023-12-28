@@ -1,0 +1,40 @@
+body {
+    background: url(https://fonoteka.top/uploads/posts/2021-04/1618325438_45-phonoteka_org-p-krasivii-temnii-fon-dlya-fotoshopa-45.jpg);
+}
+
+div {
+    background-color: cornflowerblue;
+    padding: 7px;
+    margin: 5% 7% 5% 7%;
+}
+
+h1 {
+    
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    margin: 7px;
+}
+
+nav a {
+    margin: 4px;
+    padding: 4px;
+    color: black;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: darkolivegreen;
+}
+
+.image {
+    text-align: center;
+}
+
+h2, ol, .block1 {
+    margin-left: 20px;
+}
+
