@@ -6,6 +6,8 @@
         Кружок го Физтех-лицея
     </title>
     <link rel="stylesheet" href="style.css">
+    <script src="./js/app.js"> </script>
+ 
 </head>
 
 <body>
@@ -30,9 +32,14 @@
                 16 декабря наш кружок впервые принял участие в турнире.<br>
                 Наши первые рейтинги:<br>
             </p>
+            <p>
+                Messages:<br>
+                <input type="text" placeholder="your message" id="msg">
+                <button onclick="appWrite()"> SEND </button>
+            </p>
             <ol>
-                <li>Егор - 24 кю</li>
-                <li>Женя, Маша - 26 кю</li>
+                <li id="msg_new"> </li>
+                <li id="msg_new"> Женя, Маша - 26 кю</li>
                 <li>Алина, Марк, Матвей, Настя, Федя - 27 кю</li>
                 <li>Амелия, Юля - 28 кю</li>
             </ol>
